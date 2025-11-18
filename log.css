@@ -3,9 +3,10 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    box-sizing: border-box;
 }
 .container{
-    max-width: 350px;
+    max-width: 387px;
     margin: auto;
     padding: 20px;
     background: #fff;
@@ -28,4 +29,42 @@ body{
     color: rgba(247, 182, 4, 0.966);
     font-family: fantasy;
     text-decoration: dotted;
+    padding-top: 0;
+}
+p{
+    font-weight: bold;
+    padding: 10px;
+}
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 6px solid rgba(179, 168, 168, 0.582)(128, 128, 128, 0.582);
+    border-radius: 5px;
+    margin-left: 0;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+:placeholder-shown{
+    border-color: rgb(179, 168, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    padding-left: 16px;
+}
+input[type="password"]{
+    margin-top: 0;
+}
+input[type="text"]{
+    margin-bottom: 0;
+}
+input[type="text"], input[type="password"]:focus{
+    border-color: rgb(139, 216, 216);
+}
+input[type="text"], input[type="password"]:active{
+    border-color: rgba(122, 211, 211, 0.788)(0, 255, 255, 0.788);
+}
+input:valid{
+    border-color: rgb(124, 207, 207);
 }
