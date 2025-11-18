@@ -34,13 +34,14 @@ body{
 p{
     font-weight: bold;
     padding: 10px;
+    color: rgb(31, 30, 30);
 }
 input[type="text"], input[type="password"]{
     width: 100%;
     padding-right: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 6px solid rgba(179, 168, 168, 0.582)(128, 128, 128, 0.582);
+    border: 4px solid rgb(230, 220, 220);
     border-radius: 5px;
     margin-left: 0;
     margin-bottom: 1px;
@@ -67,4 +68,45 @@ input[type="text"], input[type="password"]:active{
 }
 input:valid{
     border-color: rgb(124, 207, 207);
+}
+a{
+    color: rgba(26, 24, 24, 0.815);
+    text-decoration: none;
+    margin-top: 2px;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(114, 184, 207);
+}
+.log{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    background-color: rgb(9, 163, 214);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.log:hover{
+    background-color: rgb(11, 107, 139);
+}
+.log:active{
+    background-color: rgb(7, 66, 86);
+}
+.guest{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    background-color: white;
+    border: 2px solid rgba(209, 203, 203, 0.692);
+    border-radius: 5px;
+}
+.guest:hover{
+    background-color: rgb(235, 230, 230);
+}
+.guest:active{
+    background-color: rgb(220, 220, 220);
 }
